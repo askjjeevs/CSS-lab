@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      .flex-container {
+        width: 350px;
+        height: 200px;
+        margin-top: -10px;
+        margin-left: -10px;
+        padding: 10px
+        
+        display: flex;
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+
+
+    div .inner {
+
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      background-color: black;
+      
+    }
+
+    div square1 {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 50px; 
+      margin-right: 50px; 
+
+    }
+    div sqaure2 { 
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+    } 
+
+    #left {
+      background-color: red;
+      display: inline-block;
+    }
+
+    #right {
+      background-color: blue;
+      display: inline-block;
+    }
+    
+    </style>
+  </head>
+
+  <body>
+    <div class="flex-container" id="left">
+      <div class="inner" id="sqaure1"></div>
+      <div class="inner" id="square2"></div>
+    </div>
+    <div class="flex-container" id="right">
+      <div class="inner" id="square1"></div>
+      <div class="inner" id="square2"></div>
+    </div>
+  </body>
+
+</html>
